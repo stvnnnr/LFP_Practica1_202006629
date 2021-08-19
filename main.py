@@ -170,7 +170,73 @@ def generarRepo():
              print("********************************************************")
              print ("                                                                ")
              print ("                                                                ")
+        if para == " ASC":
+             print("********************************************************")
+             print("El listado de estudiantes del curso de forma ascendente.")
+             print ("                                                                ")
+             print("Estudiante     Nota Obtenida")
+             print ("                                                                ")
+             for pp in ascendente:
+                 print(pp.nombre+" "+str(pp.calificacion))
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == "ASC ":
+             print("********************************************************")
+             print("El listado de estudiantes del curso de forma ascendente.")
+             print ("                                                                ")
+             print("Estudiante     Nota Obtenida")
+             print ("                                                                ")
+             for pp in ascendente:
+                 print(pp.nombre+" "+str(pp.calificacion))
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == " ASC ":
+             print("********************************************************")
+             print("El listado de estudiantes del curso de forma ascendente.")
+             print ("                                                                ")
+             print("Estudiante     Nota Obtenida")
+             print ("                                                                ")
+             for pp in ascendente:
+                 print(pp.nombre+" "+str(pp.calificacion))
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
         if para == "DESC":
+             print("********************************************************")
+             print("El listado de estudiantes del curso de forma descendente.")
+             print ("                                                                ")
+             print("Estudiante     Nota Obtenida")
+             print ("                                                                ")
+             for oo in descendente:
+                 print(oo.nombre+" "+str(oo.calificacion))
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == " DESC":
+             print("********************************************************")
+             print("El listado de estudiantes del curso de forma descendente.")
+             print ("                                                                ")
+             print("Estudiante     Nota Obtenida")
+             print ("                                                                ")
+             for oo in descendente:
+                 print(oo.nombre+" "+str(oo.calificacion))
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == "DESC ":
+             print("********************************************************")
+             print("El listado de estudiantes del curso de forma descendente.")
+             print ("                                                                ")
+             print("Estudiante     Nota Obtenida")
+             print ("                                                                ")
+             for oo in descendente:
+                 print(oo.nombre+" "+str(oo.calificacion))
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == " DESC ":
              print("********************************************************")
              print("El listado de estudiantes del curso de forma descendente.")
              print ("                                                                ")
@@ -187,6 +253,24 @@ def generarRepo():
              print("********************************************************")
              print ("                                                                ")
              print ("                                                                ")
+        if para == " AVG":
+             print("********************************************************")
+             print("El promedio de las notas del curso fue: "+promedio)
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == "AVG ":
+             print("********************************************************")
+             print("El promedio de las notas del curso fue: "+promedio)
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == " AVG ":
+             print("********************************************************")
+             print("El promedio de las notas del curso fue: "+promedio)
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
         if para == "MIN":
              print("********************************************************")
              print("El estudiante con la nota mas baja fue: ")
@@ -195,7 +279,55 @@ def generarRepo():
              print("********************************************************")
              print ("                                                                ")
              print ("                                                                ")
+        if para == " MIN":
+             print("********************************************************")
+             print("El estudiante con la nota mas baja fue: ")
+             print("Estudiante     Nota Obtenida")
+             print(notaMenor)
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == "MIN ":
+             print("********************************************************")
+             print("El estudiante con la nota mas baja fue: ")
+             print("Estudiante     Nota Obtenida")
+             print(notaMenor)
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == " MIN ":
+             print("********************************************************")
+             print("El estudiante con la nota mas baja fue: ")
+             print("Estudiante     Nota Obtenida")
+             print(notaMenor)
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
         if para == "MAX":
+             print("********************************************************")
+             print("El estudiante con la nota mas alta fue: ")
+             print("Estudiante     Nota Obtenida")
+             print(notaMayor)
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == " MAX":
+             print("********************************************************")
+             print("El estudiante con la nota mas alta fue: ")
+             print("Estudiante     Nota Obtenida")
+             print(notaMayor)
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == "MAX ":
+             print("********************************************************")
+             print("El estudiante con la nota mas alta fue: ")
+             print("Estudiante     Nota Obtenida")
+             print(notaMayor)
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == " MAX ":
              print("********************************************************")
              print("El estudiante con la nota mas alta fue: ")
              print("Estudiante     Nota Obtenida")
@@ -214,7 +346,73 @@ def generarRepo():
              print("********************************************************")
              print ("                                                                ")
              print ("                                                                ")
+        if para == " APR":
+             print("********************************************************")
+             print("El número de estudiantes aprobados fue : "+ganadores +". Y son:")
+             print ("                                                                ")
+             print("Estudiante    Nota Obtenida")
+             print ("                                                                ")
+             for rr in listaGanadores:
+                  print(rr.nombre+" "+str(rr.calificacion))
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == "APR ":
+             print("********************************************************")
+             print("El número de estudiantes aprobados fue : "+ganadores +". Y son:")
+             print ("                                                                ")
+             print("Estudiante    Nota Obtenida")
+             print ("                                                                ")
+             for rr in listaGanadores:
+                  print(rr.nombre+" "+str(rr.calificacion))
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == " APR ":
+             print("********************************************************")
+             print("El número de estudiantes aprobados fue : "+ganadores +". Y son:")
+             print ("                                                                ")
+             print("Estudiante    Nota Obtenida")
+             print ("                                                                ")
+             for rr in listaGanadores:
+                  print(rr.nombre+" "+str(rr.calificacion))
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
         if para == "REP":
+             print("********************************************************")
+             print("El número de estudiantes Reprobados fue : "+perdedores +". Y son:")
+             print ("                                                                ")
+             print("Estudiante    Nota Obtenida")
+             print ("                                                                ")
+             for dd in listaPerdedores:
+                  print(dd.nombre+" "+str(dd.calificacion))
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == " REP":
+             print("********************************************************")
+             print("El número de estudiantes Reprobados fue : "+perdedores +". Y son:")
+             print ("                                                                ")
+             print("Estudiante    Nota Obtenida")
+             print ("                                                                ")
+             for dd in listaPerdedores:
+                  print(dd.nombre+" "+str(dd.calificacion))
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == "REP ":
+             print("********************************************************")
+             print("El número de estudiantes Reprobados fue : "+perdedores +". Y son:")
+             print ("                                                                ")
+             print("Estudiante    Nota Obtenida")
+             print ("                                                                ")
+             for dd in listaPerdedores:
+                  print(dd.nombre+" "+str(dd.calificacion))
+             print("********************************************************")
+             print ("                                                                ")
+             print ("                                                                ")
+        if para == " REP ":
              print("********************************************************")
              print("El número de estudiantes Reprobados fue : "+perdedores +". Y son:")
              print ("                                                                ")
@@ -283,7 +481,7 @@ def generarRepoHTML():
          """
     file.write(end1)
     for para in parameters:
-        if para == "ASC":
+        if para == "ASC" or " ASC" or "ASC " or " ASC ":
             para1 = f"""
             <h3>Listado de forma ASCENDENTE.</h3>
                 <table class="container">
@@ -313,7 +511,7 @@ def generarRepoHTML():
              </table>
              """
             file.write(end2)
-        if para == "DESC":
+        if para == "DESC" or " DESC" or "DESC " or " DESC ":
             para2 = f"""
             <h3>Listado de forma DESCENDENTE.</h3>
                 <table class="container">
@@ -343,7 +541,7 @@ def generarRepoHTML():
              </table>
              """
             file.write(end3)
-        if para == "AVG":
+        if para == "AVG" or " AVG" or "AVG " or " AVG ":
             para3 = f"""
             <h3>El PROMEDIO de notas del curso: .</h3>
                 <table class="container">
@@ -356,7 +554,7 @@ def generarRepoHTML():
                  </table>
             """
             file.write(para3)
-        if para == "MIN":
+        if para == "MIN" or " MIN" or "MIN " or " MIN ":
             para4 = f"""
             <h3>El estudiante con la nota mas BAJA del curso fue: .</h3>
                 <table class="container">
@@ -369,7 +567,7 @@ def generarRepoHTML():
                  </table>
             """
             file.write(para4)
-        if para == "MAX":
+        if para == "MAX" or " MAX" or "MAX " or " MAX ":
             para5 = f"""
             <h3>El estudiante con la nota mas ALTA del curso fue: .</h3>
                 <table class="container">
@@ -382,7 +580,7 @@ def generarRepoHTML():
                  </table>
             """
             file.write(para5)
-        if para == "APR":
+        if para == "APR" or " APR" or "APR " or " APR ":
             para6 = f"""
             <h3>El numero de estudiantes aprobados fue: {ganadores}.</h3>
             <h3>Listado de estudiantes aprobados: .</h3>
@@ -413,7 +611,7 @@ def generarRepoHTML():
              </table>
              """
             file.write(end3)
-        if para == "REP":
+        if para == "REP" or " REP" or "REP " or " REP ":
             para7 = f"""
             <h3>El numero de estudiantes reprobados fue: {perdedores}.</h3>
             <h3>Listado de estudiantes reprobados: .</h3>
